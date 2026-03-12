@@ -43,15 +43,15 @@ public class AdminLoginServlet extends HttpServlet {
                 session.setAttribute("adminName", adminDoc.getString("fullName"));
                 session.setAttribute("role", "admin");
                 
-                response.sendRedirect("admin/adminDashboard.jsp");
+                response.sendRedirect(request.getContextPath() + "/admin/adminDashboard.jsp");
             } else {
                 System.out.println("❌ Admin login failed!");
-                response.sendRedirect("admin/adminLogin.jsp?error=1");
+                response.sendRedirect(request.getContextPath() + "/admin/adminLogin.jsp?error=1");
             }
         } catch (Exception e) {
             System.out.println("❌ Error: " + e.getMessage());
             e.printStackTrace();
-            response.sendRedirect("admin/adminLogin.jsp?error=1");
+            response.sendRedirect(request.getContextPath() + "/admin/adminLogin.jsp?error=1");
         }
     }
 }
