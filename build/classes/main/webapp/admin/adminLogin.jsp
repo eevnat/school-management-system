@@ -226,7 +226,7 @@
                 </div>
             <% } %>
             
-            <form action="../AdminLoginServlet" method="post">
+            <form action="AdminLoginServlet" method="post">
                 <div class="form-group">
                     <label>Username</label>
                     <input type="text" name="username" placeholder="Enter your username" required autofocus>

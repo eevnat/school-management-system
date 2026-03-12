@@ -268,8 +268,7 @@
                 </div>
             <% } %>
             
-            <form action="../StudentLoginServlet" method="post">
-                <div class="form-group">
+			<form action="StudentLoginServlet" method="post">                <div class="form-group">
                     <label>Roll Number</label>
                     <input type="text" name="rollNumber" placeholder="Enter your roll number" required autofocus>
                 </div>
