@@ -220,14 +220,29 @@ Add **Apache Tomcat Server**
 http://localhost:8080/studentcardgenerator
 ```
 
+After installation you can check by using these credentials:
+
+for admin:
+userId: admin
+password: admin123
+
+for student:
+userid: 2025001
+password: tan123
+
+for parent:
+
+userid: Ravindra Desai
+email: rav@gmail.com
+Class : 10
+Div: A
+Student Rollno: 2025001
 ---
 
 # 📸 Screenshots
 
 Recommended screenshots:
 Main Page:
-
-
 • Admin Dashboard
 • Student Dashboard
 • Parent Dashboard
