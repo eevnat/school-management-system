@@ -225,6 +225,8 @@ http://localhost:8080/studentcardgenerator
 # 📸 Screenshots
 
 Recommended screenshots:
+Main Page:
+
 
 • Admin Dashboard
 • Student Dashboard
